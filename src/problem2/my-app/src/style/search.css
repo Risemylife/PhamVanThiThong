@@ -1,0 +1,41 @@
+.search-container {
+    width: 80%;
+    height: 30%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border-radius: 26px;
+    padding: 30px;
+    display: flex;
+}
+
+.amount,
+.receive {
+    width: 50%;
+    font-weight: 600;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    border: #eeeee4 1px solid;
+    width: 90%;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+
+.materialInput {
+    padding: 10px;
+}
+
+.css-1s97tdc-MuiInputBase-root-MuiInput-root{
+    font-weight: 700 !important;
+}
+
+.css-4ca7ag-MuiButtonBase-root-MuiButton-root:hover{
+    background-color: #fff !important;
+}
+
+.MuiButtonBase-root{
+    padding-right: 16px !important;
+}
