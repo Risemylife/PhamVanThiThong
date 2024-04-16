@@ -1,6 +1,6 @@
 import React from "react";
-import { Button, Input } from "@mui/material";
-
+import { Avatar, Button, Input } from "@mui/material";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 const InputComponent = (name) => {
   return (
     <div className="input-container">
@@ -14,8 +14,9 @@ const InputComponent = (name) => {
         disableRipple={true}
         disableElevation={true}
         className="materialBtn"
+        startIcon={<Avatar sx={{ width: 30, height: 30 }} alt="Remy Sharp" />}
       >
-        Outlined
+        USD <ExpandMoreIcon />
       </Button>
     </div>
   );

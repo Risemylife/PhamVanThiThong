@@ -1,16 +1,13 @@
 .search-container {
-    width: 80%;
-    height: 30%;
-    transform: translateY(-50%);
+    transform: translateY(-20%);
     background-color: #fff;
     border-radius: 26px;
     padding: 30px;
-    display: flex;
 }
 
 .amount,
 .receive {
-    width: 50%;
+    width: 90%;
     font-weight: 600;
 }
 
@@ -18,9 +15,8 @@
     display: flex;
     justify-content: space-between;
     border: #eeeee4 1px solid;
-    width: 90%;
     border-radius: 12px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 
@@ -28,14 +24,34 @@
     padding: 10px;
 }
 
-.css-1s97tdc-MuiInputBase-root-MuiInput-root{
+.css-1s97tdc-MuiInputBase-root-MuiInput-root {
     font-weight: 700 !important;
+    font-size: 18px !important;
 }
 
-.css-4ca7ag-MuiButtonBase-root-MuiButton-root:hover{
+.input-container:focus-within {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.css-4ca7ag-MuiButtonBase-root-MuiButton-root:hover {
     background-color: #fff !important;
 }
 
-.MuiButtonBase-root{
+.MuiButtonBase-root {
     padding-right: 16px !important;
+    border-radius: 12px !important;
+}
+
+.exchange-rate {
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.exchange-rate span {
+    color: darkgreen;
+}
+
+.MuiButtonBase-root {
+    padding: 10px 20px !important;
 }
